@@ -53,11 +53,4 @@ python windows-login-monitor.py --export results.csv
 ## Export
 
 Use the `--export` option to write events to a CSV file. The CSV columns match the script's output fields: `event_id,time,username,domain,ip,port,logon_type,failure_reason`.
-
-## License
-
-This repository does not include a license file. Add one if you plan to publish or share this project.
-
 ---
-
-File: `windows-login-monitor.py` contains the implementation and is the primary script to run.
