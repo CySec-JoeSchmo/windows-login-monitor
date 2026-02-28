@@ -50,7 +50,3 @@ python windows-login-monitor.py --export results.csv
 - For network logons (logon type "Network") the `IpAddress` field is used — this is the source IP that attempted the connection.
 - The script only reports metadata (usernames, IPs, logon type); Windows does not log attempted passwords.
 
-## Export
-
-Use the `--export` option to write events to a CSV file. The CSV columns match the script's output fields: `event_id,time,username,domain,ip,port,logon_type,failure_reason`.
----
